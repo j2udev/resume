@@ -1,0 +1,16 @@
+{{- if .Values.enableVirtualService -}}
+{{- $fullName := include "static-site.fullname" . -}}
+apiVersion: networking.istio.io/v1alpha3
+kind: VirtualService
+metadata:
+  name: {{ $fullName }}
+  labels:
+{{ include "static-site.labels" . | indent 4 }}
+spec:
+  hosts:
+    - "{{ .Values.virtualService.host }}"
+  gateways:
+    - {{ .Values.virtualService.gateway }}
+  http:
+    {{- toYaml .Values.virtualService.http | nindent 2 }}
+{{- end }}

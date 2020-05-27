@@ -1,0 +1,18 @@
+apiVersion: skaffold/v1
+kind: Config
+build:
+  artifacts:
+    - image: "resume"
+      docker: {}
+      sync:
+        infer: ["**/*"]
+deploy:
+  helm:
+    releases:
+      - name: resume
+        chartPath: ./helm
+        remote: false
+        values:
+          image: resume
+        setValues:
+          fullnameOverride: resume
