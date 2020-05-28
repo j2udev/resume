@@ -63,24 +63,46 @@ googleAnalytics = ""
         [[params.skills.list]]
         title = "Technical"
         [[params.skills.list.items]]
-        details = "JavaScript/Java"
+        details = "Java"
         [[params.skills.list.items]]
-        details = "Kubernetes, Helm, Skaffold, Docker"
+        details = "JavaScript"        
         [[params.skills.list.items]]
-        details = "Terraform, AWS"        
+        details = "Docker"
         [[params.skills.list.items]]
-        details = "Apache Kafka, Apache NiFi, MongoDB, Prometheus/Grafana, Istio, Jenkins"
+        details = "Kubernetes"
         [[params.skills.list.items]]
-        details = "Git, Atlassian, Hugo"
+        details = "Helm"
+        [[params.skills.list.items]]
+        details = "Skaffold"                        
+        [[params.skills.list.items]]
+        details = "Terraform"  
+        [[params.skills.list.items]]
+        details = "AWS"               
+        [[params.skills.list.items]]
+        details = "Apache Kafka"
+        [[params.skills.list.items]]
+        details = "Apache NiFi"
+        [[params.skills.list.items]]
+        details = "SQL and NoSQL databases"
+        [[params.skills.list.items]]
+        details = "Jenkins"
+        [[params.skills.list.items]]
+        details = "Prometheus/Grafana" 
+        [[params.skills.list.items]]
+        details = "Istio"  
+        [[params.skills.list.items]]
+        details = "Yeoman"                                              
+        [[params.skills.list.items]]
+        details = "Hugo"
 
-        [[params.skills.list]]
-        title = "Professional"
-        [[params.skills.list.items]]
-        details = "Effective communication"
-        [[params.skills.list.items]]
-        details = "Leadership"
-        [[params.skills.list.items]]
-        details = "Strong problem solver"
+        # [[params.skills.list]]
+        # title = "Professional"
+        # [[params.skills.list.items]]
+        # details = "Effective communication"
+        # [[params.skills.list.items]]
+        # details = "Leadership"
+        # [[params.skills.list.items]]
+        # details = "Strong problem solver"
 
 
 
@@ -93,7 +115,7 @@ googleAnalytics = ""
         enable = true
 
         [[params.education.list]]
-        degree = "MSc in Electrical Engineering"
+        degree = "MSc Electrical Engineering"
         university = "West Virginia University"
         dates = "2015 - 2017"
         [[params.education.list]]
@@ -148,13 +170,13 @@ googleAnalytics = ""
         enable = true
 
         [[params.interests.list]]
+        name = "Technology"
+        [[params.interests.list]]
+        name = "Video Games"        
+        [[params.interests.list]]
         name = "Soccer"
         [[params.interests.list]]
         name = "Snowboarding"
-        [[params.interests.list]]
-        name = "Technology"
-        [[params.interests.list]]
-        name = "Video Games"
 
 
 
@@ -178,50 +200,63 @@ googleAnalytics = ""
         enable = true
 
         [[params.experience.list]]
-        title = "Software Engineer III"
+        title = "Technical Lead Software Engineer"
         dates = "2019 - Present"
         company = "Leidos"
-        details = "Serving as the Technical Lead Engineer of a team building a Platform as a Service.  This position has be been primarily focused on DevOps."
+        details = "Serving as the Technical Lead Engineer of a team building a Platform as a Service.  This position has been heavily focused on DevOps."
         [[params.experience.list.items]]
         details = "Have pioneered some of the work related to container orchestration within the Leidos Morgantown offices, including work with Kubernetes, Helm, Docker, and Skaffold."
         [[params.experience.list.items]]
-        details = "Have worked with notable tools and technologies such as Kafka, MongoDB, PostgreSQL, NiFi, Prometheus, Grafana, Istio, and Terraform among others."
+        details = "Have worked with notable tools and technologies such as Apache Kafka, Apache NiFi, MongoDB, PostgreSQL, Prometheus, Grafana, Istio, and Terraform among others."
         [[params.experience.list.items]]
         details = "Have worked several proof of concepts that required fast turnaround and concise demonstrations."
+        [[params.experience.list.items]]
+        details = "Responsible for leading the development of the PaaS reference implementation."        
 
         [[params.experience.list]]
-        title = "Junior Software Engineer"
+        title = "Software Engineer"
         dates = "2017 - 2019"
         company = "Leidos"
-        details = ""
+        details = "Served as a developer for mutliple web application products.  This position was primarily focused on both front and back end development using JavaScript and Java."
         [[params.experience.list.items]]
-        details = "Lorem ipsum dolor sit amet, consectetuer."
+        details = "Fulfilled development roles on the front end using JavaScript, HTML, CSS, Polymer, and React among other libraries."
         [[params.experience.list.items]]
-        details = "Aenean commodo ligula eget dolor."
+        details = "Fulfilled development roles on the back end using Java, and RxJava among other libraries."
 
         [[params.experience.list]]
-        title = "Senior Software Developer"
-        dates = "2014 - 2016"
-        company = "Dropbox"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+        title = "Graduate Teaching Assistant"
+        dates = "2016 - 2017"
+        company = "West Virginia University"
+        details = "Taught a computer engineering lab focused on x86 assembly language and interfacing with hardware."
+        [[params.experience.list.items]]
+        details = "Demonstrated, taught, and graded a junior/senior level computer engineering lab."
+        [[params.experience.list.items]]
+        details = "Held office hours to help students with both lab and course work."
+        [[params.experience.list.items]]
+        details = "Graded technical lab reports, which naturally improved my ability to do technical writing."    
 
         [[params.experience.list]]
-        title = "Senior Developer"
-        dates = "2013 - 2014"
-        company = "Uber"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus."
+        title = "Graduate Research Assistant"
+        dates = "2015 - 2016"
+        company = "West Virginia University"
+        details = "Worked with the West Virginia State Police Internet Crimes Against Children Data System (WVSP ICAC) as a Java developer and database administrator"
+        [[params.experience.list.items]]
+        details = "Worked with a team using the Agile software development process."
+        [[params.experience.list.items]]
+        details = "Had to adapt and learn new technology quickly."
+        [[params.experience.list.items]]
+        details = "Worked with AngularJS, Apache Tomcat, Apache NiFi, Docker, MySQL, MongoDB, MVC concepts, and the Spring framework."
+
 
         [[params.experience.list]]
-        title = "Backend Developer"
-        dates = "2014 - 2016"
-        company = "Amazon"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
-
-        [[params.experience.list]]
-        title = "Frontend Developer"
-        dates = "2013 - 2014"
-        company = "Startup"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus."
+        title = "Undergraduate Research Assistant"
+        dates = "2014 - 2015"
+        company = "West Virginia University"
+        details = "Worked in the Biometrics Research Department where students operated equipment for biometric collections and wrote scripts to help automate the process."
+        [[params.experience.list.items]]
+        details = "Took volunteers through different biometric collections including hand geometry, iris scans, fingerprints, and voice recordings among others."
+        [[params.experience.list.items]]
+        details = "Wrote scripts to automate parts of the collection process."                
 
 
 
@@ -234,7 +269,7 @@ googleAnalytics = ""
 
 
     [params.projects]
-        enable = true
+        enable = false
 
         [[params.projects.list]]
         title = "Project Lorem Ipsum"
@@ -261,7 +296,7 @@ googleAnalytics = ""
 
 
     [params.information]
-        enable = true
+        enable = false
 
         [[params.information.list]]
         title = "Papers"
@@ -287,11 +322,11 @@ googleAnalytics = ""
         [[params.social.list]]
         icon = "fab fa-github-square"
         url = "//github.com/j2udevelopment"
-        title = "Joshua Ward"
+        title = "Find me on Github!"
         [[params.social.list]]
         icon = "fab fa-linkedin"
         url = "//linkedin.com/in/joshua-ward-78997612a"
-        title = "Joshua Ward"
+        title = "Find me on LinkedIn!"
         # [[params.social.list]]
         # icon = "fab fa-twitter-square"
         # url = "//twitter.com/username"
