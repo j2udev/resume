@@ -93,7 +93,7 @@ googleAnalytics = ""
         enable = true
 
         [[params.education.list]]
-        degree = "MSc in Electrical Engineering with a focus on Computer Systems and Software Engineering"
+        degree = "MSc in Electrical Engineering"
         university = "West Virginia University"
         dates = "2015 - 2017"
         [[params.education.list]]
@@ -109,7 +109,7 @@ googleAnalytics = ""
 
 
     [params.awards]
-        enable = true
+        enable = false
 
         [[params.awards.list]]
         name = "Award Lorem Ipsum"
@@ -148,13 +148,13 @@ googleAnalytics = ""
         enable = true
 
         [[params.interests.list]]
-        name = "Climbing"
+        name = "Soccer"
         [[params.interests.list]]
         name = "Snowboarding"
         [[params.interests.list]]
-        name = "Photography"
+        name = "Technology"
         [[params.interests.list]]
-        name = "Travelling"
+        name = "Video Games"
 
 
 
@@ -178,22 +178,22 @@ googleAnalytics = ""
         enable = true
 
         [[params.experience.list]]
-        title = "Senior Software Engineer"
+        title = "Software Engineer III"
         dates = "2019 - Present"
-        company = "Google"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis."
+        company = "Leidos"
+        details = "Serving as the Technical Lead Engineer of a team building a Platform as a Service.  This position has be been primarily focused on DevOps."
         [[params.experience.list.items]]
-        details = "Lorem ipsum dolor sit amet, consectetuer."
+        details = "Have pioneered some of the work related to container orchestration within the Leidos Morgantown offices, including work with Kubernetes, Helm, Docker, and Skaffold."
         [[params.experience.list.items]]
-        details = "Aenean commodo ligula eget dolor."
+        details = "Have worked with notable tools and technologies such as Kafka, MongoDB, PostgreSQL, NiFi, Prometheus, Grafana, Istio, and Terraform among others."
         [[params.experience.list.items]]
-        details = "Etiam ultricies nisi vel augue."
+        details = "Have worked several proof of concepts that required fast turnaround and concise demonstrations."
 
         [[params.experience.list]]
-        title = "Lead Software Developer"
-        dates = "2016 - 2019"
-        company = "Apple"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel."
+        title = "Junior Software Engineer"
+        dates = "2017 - 2019"
+        company = "Leidos"
+        details = ""
         [[params.experience.list.items]]
         details = "Lorem ipsum dolor sit amet, consectetuer."
         [[params.experience.list.items]]
