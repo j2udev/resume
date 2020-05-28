@@ -187,7 +187,7 @@ googleAnalytics = ""
 
     [params.summary]
         enable = true
-        text = "Summarise your career here. Donec quam felis, ultricies nec, pellentesque eu. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.  Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh."
+        text = "I am a full stack software engineer.  I have seen nearly all aspects of the software development lifecycle.  I've fulfilled front and back end development roles, created devops pipelines, and written technical documentation to teach others how to do the same.  At this early stage in my career, I have served as a technical lead for multiple projects and have fulfilled other minor leadership roles as well.  While leadership is important for my current position, teamwork is equally important.  I have had no issue falling in line and adding meaningful contributions to every team I have been a part of.  I have an insatiable passion for technology and I hope that comes across in this resume.  If my short story doesn't sway your opinion, perhaps the fact that this resume is being hosted in a highly available and scalable Kubernetes cluster running in Google Cloud Platform will!"
 
 
 
@@ -205,7 +205,7 @@ googleAnalytics = ""
         company = "Leidos"
         details = "Serving as the Technical Lead Engineer of a team building a Platform as a Service.  This position has been heavily focused on DevOps."
         [[params.experience.list.items]]
-        details = "Have pioneered some of the work related to container orchestration within the Leidos Morgantown offices, including work with Kubernetes, Helm, Docker, and Skaffold."
+        details = "Have pioneered some of the work related to container orchestration within the Leidos Morgantown office, including work with Kubernetes, Helm, Docker, and Skaffold."
         [[params.experience.list.items]]
         details = "Have worked with notable tools and technologies such as Apache Kafka, Apache NiFi, MongoDB, PostgreSQL, Prometheus, Grafana, Istio, and Terraform among others."
         [[params.experience.list.items]]
