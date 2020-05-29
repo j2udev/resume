@@ -32,5 +32,5 @@ profiles:
           remote: false
           values:
             image: docker.io/j2udevelopment/resume
-        setValues:
-          fullnameOverride: resume                   
+          setValues:
+            fullnameOverride: resume                   
