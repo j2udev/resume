@@ -187,7 +187,7 @@ googleAnalytics = ""
 
     [params.summary]
         enable = true
-        text = "I am a full stack software engineer.  I have seen nearly all aspects of the software development lifecycle.  I've fulfilled front and back end development roles, created devops pipelines, and written technical documentation to teach others how to do the same.  At this early stage in my career, I have served as a technical lead for multiple projects and have fulfilled other minor leadership roles as well.  While leadership is important for my current position, teamwork is equally important.  I have had no issue falling in line and adding meaningful contributions to every team I have been a part of.  I have an insatiable passion for technology and I hope that comes across in this resume.  If my short story doesn't sway your opinion, perhaps the fact that this resume is being hosted in a highly available and scalable Kubernetes cluster running in Google Cloud Platform will!"
+        text = "I am a full stack software engineer.  I have seen nearly all aspects of the software development lifecycle.  I've fulfilled front and back end development roles, created devops pipelines, and written technical documentation to teach others how to do the same.  At this early stage in my career, I have served as a technical lead for multiple projects and have fulfilled other minor leadership roles as well.  While leadership is important for my current position, teamwork is equally important.  I have had no issue falling in line and adding meaningful contributions to every team I have been a part of.  I have an insatiable passion for technology and I hope that comes across in this resume."
 
 
 
