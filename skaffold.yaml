@@ -16,3 +16,21 @@ deploy:
           image: resume
         setValues:
           fullnameOverride: resume
+profiles:
+  - name: prod
+    patches:
+      - op: replace
+        path: /build/artifacts/0
+        value:
+          image: docker.io/j2udevelopment/resume
+          docker: {}      
+      - op: replace
+        path: /deploy/helm/releases/0
+        value:
+          name: resume
+          chartPath: ./helm
+          remote: false
+          values:
+            image: docker.io/j2udevelopment/resume
+        setValues:
+          fullnameOverride: resume                   

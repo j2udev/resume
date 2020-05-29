@@ -38,10 +38,10 @@ googleAnalytics = ""
         enable = true
         location = "Morgantown, WV"
 
-        [[params.contact.list]]
-        icon = "fas fa-phone-square"
-        url = "tel:#"
-        text = "304-667-7498"
+        # [[params.contact.list]]
+        # icon = "fas fa-phone-square"
+        # url = "tel:#"
+        # text = "304-667-7498"
         [[params.contact.list]]
         icon = "fas fa-envelope-square"
         url = "mailto:#"
