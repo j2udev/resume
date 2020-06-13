@@ -1,0 +1,3 @@
+[submodule "joshua-ward/hugo-devresume-theme"]
+	path = joshua-ward/hugo-devresume-theme
+	url = https://github.com/cowboysmall-tools/hugo-devresume-theme
