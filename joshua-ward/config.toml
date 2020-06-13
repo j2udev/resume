@@ -2,7 +2,7 @@
 
 baseURL = ""
 languageCode = "en"
-title = ""
+title = "Joshua Ward's Resume"
 theme = "hugo-devresume-theme"
 googleAnalytics = ""
 
@@ -13,7 +13,7 @@ googleAnalytics = ""
 
 [params]
     author = "Joshua Ward"
-    description = "Check out my resume!"
+    description = "Joshua Ward's Resume"
 
 
     primaryColor = "#54B689"
