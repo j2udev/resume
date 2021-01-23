@@ -65,7 +65,11 @@ googleAnalytics = ""
         [[params.skills.list.items]]
         details = "Java"
         [[params.skills.list.items]]
-        details = "JavaScript"        
+        details = "JavaScript"
+        [[params.skills.list.items]]
+        details = "Bash"
+        [[params.skills.list.items]]
+        details = "Vagrant"
         [[params.skills.list.items]]
         details = "Docker"
         [[params.skills.list.items]]
@@ -73,11 +77,11 @@ googleAnalytics = ""
         [[params.skills.list.items]]
         details = "Helm"
         [[params.skills.list.items]]
-        details = "Skaffold"                        
+        details = "Skaffold"
         [[params.skills.list.items]]
-        details = "Terraform"  
+        details = "Terraform"
         [[params.skills.list.items]]
-        details = "AWS"               
+        details = "AWS"
         [[params.skills.list.items]]
         details = "Apache Kafka"
         [[params.skills.list.items]]
@@ -87,22 +91,22 @@ googleAnalytics = ""
         [[params.skills.list.items]]
         details = "Jenkins"
         [[params.skills.list.items]]
-        details = "Prometheus/Grafana" 
+        details = "Prometheus/Grafana"
         [[params.skills.list.items]]
-        details = "Istio"  
+        details = "Istio"
         [[params.skills.list.items]]
-        details = "Yeoman"                                              
+        details = "Yeoman"
         [[params.skills.list.items]]
         details = "Hugo"
 
-        # [[params.skills.list]]
-        # title = "Professional"
-        # [[params.skills.list.items]]
-        # details = "Effective communication"
-        # [[params.skills.list.items]]
-        # details = "Leadership"
-        # [[params.skills.list.items]]
-        # details = "Strong problem solver"
+        [[params.skills.list]]
+        title = "Professional"
+        [[params.skills.list.items]]
+        details = "Effective communication"
+        [[params.skills.list.items]]
+        details = "Leadership"
+        [[params.skills.list.items]]
+        details = "Strong problem solver"
 
 
 
@@ -172,7 +176,7 @@ googleAnalytics = ""
         [[params.interests.list]]
         name = "Technology"
         [[params.interests.list]]
-        name = "Video Games"        
+        name = "Video Games"
         [[params.interests.list]]
         name = "Soccer"
         [[params.interests.list]]
@@ -187,7 +191,7 @@ googleAnalytics = ""
 
     [params.summary]
         enable = true
-        text = "I am a full stack software engineer.  I have seen nearly all aspects of the software development lifecycle.  I've fulfilled front and back end development roles, created devops pipelines, and written technical documentation to teach others how to do the same.  At this early stage in my career, I have served as a technical lead for multiple projects and have fulfilled other minor leadership roles as well.  While leadership is important for my current position, teamwork is equally important.  I have had no issue falling in line and adding meaningful contributions to every team I have been a part of.  I have an insatiable passion for technology and I'm not afraid to step outside of my comfort zone."
+        text = "I am a full stack software engineer.  I have seen nearly all aspects of the software development lifecycle.  I've fulfilled front and back end development roles, architected microservices solutions, created DevOps pipelines, and written technical documentation to teach others how to do the same.  At this early stage in my career, I have served as a technical lead for multiple projects and have fulfilled other minor leadership roles as well.  While leadership is important for my current position, being a team player is, and has always been, critical regardless of position.  I have had no issue falling in line, working with teammates, and adding meaningful contributions to every team I have been a part of.  I have an insatiable passion for technology and I'm not afraid to step outside of my comfort zone."
 
 
 
@@ -203,25 +207,29 @@ googleAnalytics = ""
         title = "Technical Lead Software Engineer"
         dates = "2019 - Present"
         company = "Leidos"
-        details = "Serving as the Technical Lead Engineer of a team building a Platform as a Service.  This position has been heavily focused on DevOps."
+        details = "Serving as the Technical Lead Engineer of a team building a Platform as a Service.  This position has been heavily focused on DevOps and building/deploying microservices."
+        [[params.experience.list.items]]
+        details = "Responsible for leading the development of the PaaS reference implementation."
         [[params.experience.list.items]]
         details = "Have pioneered some of the work related to container orchestration within the Leidos Morgantown office, including work with Kubernetes, Helm, Docker, and Skaffold."
         [[params.experience.list.items]]
         details = "Have worked with notable tools and technologies such as Apache Kafka, Apache NiFi, MongoDB, PostgreSQL, Prometheus, Grafana, Istio, and Terraform among others."
         [[params.experience.list.items]]
-        details = "Have worked several proof of concepts that required fast turnaround and concise demonstrations."
+        details = "Have worked with multiple cloud platforms including AWS, GovCloud, Azure, and GCP."
         [[params.experience.list.items]]
-        details = "Responsible for leading the development of the PaaS reference implementation."        
+        details = "Have built and automated repeatable native/Docker(containers)/Vagrant(virtual machines)/AWS workspaces development environments."
+        [[params.experience.list.items]]
+        details = "Have worked several proof of concepts that required fast turnaround and concise demonstrations."
 
         [[params.experience.list]]
         title = "Software Engineer"
         dates = "2017 - 2019"
         company = "Leidos"
-        details = "Served as a developer for mutliple web application products.  This position was primarily focused on both front and back end development using JavaScript and Java."
+        details = "Served as a developer for multiple web application products.  This position was primarily focused on both front and back end development using JavaScript and Java."
         [[params.experience.list.items]]
         details = "Fulfilled development roles on the front end using JavaScript, HTML, CSS, Polymer, and React among other libraries."
         [[params.experience.list.items]]
-        details = "Fulfilled development roles on the back end using Java, and RxJava among other libraries."
+        details = "Fulfilled development roles on the back end using Java and RxJava among other libraries."
 
         [[params.experience.list]]
         title = "Graduate Teaching Assistant"
@@ -233,13 +241,13 @@ googleAnalytics = ""
         [[params.experience.list.items]]
         details = "Held office hours to help students with both lab and course work."
         [[params.experience.list.items]]
-        details = "Graded technical lab reports, which naturally improved my ability to do technical writing."    
+        details = "Graded technical lab reports."
 
         [[params.experience.list]]
         title = "Graduate Research Assistant"
         dates = "2015 - 2016"
         company = "West Virginia University"
-        details = "Worked with the West Virginia State Police Internet Crimes Against Children Data System (WVSP ICAC) as a Java developer and database administrator"
+        details = "Worked with the West Virginia State Police Internet Crimes Against Children Unit (WVSP ICAC) as a Java developer and database administrator."
         [[params.experience.list.items]]
         details = "Worked with a team using the Agile software development process."
         [[params.experience.list.items]]
@@ -256,7 +264,7 @@ googleAnalytics = ""
         [[params.experience.list.items]]
         details = "Took volunteers through different biometric collections including hand geometry, iris scans, fingerprints, and voice recordings among others."
         [[params.experience.list.items]]
-        details = "Wrote scripts to automate parts of the collection process."                
+        details = "Wrote scripts to automate parts of the collection process."
 
 
 
