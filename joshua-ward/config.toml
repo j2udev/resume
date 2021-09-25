@@ -67,6 +67,8 @@ googleAnalytics = ""
         [[params.skills.list.items]]
         details = "JavaScript"
         [[params.skills.list.items]]
+        details = "Golang"
+        [[params.skills.list.items]]
         details = "Bash"
         [[params.skills.list.items]]
         details = "Vagrant"
@@ -83,11 +85,11 @@ googleAnalytics = ""
         [[params.skills.list.items]]
         details = "AWS"
         [[params.skills.list.items]]
+        details = "Rancher"
+        [[params.skills.list.items]]
         details = "Apache Kafka"
         [[params.skills.list.items]]
         details = "Apache NiFi"
-        [[params.skills.list.items]]
-        details = "SQL and NoSQL databases"
         [[params.skills.list.items]]
         details = "Jenkins"
         [[params.skills.list.items]]
@@ -191,7 +193,7 @@ googleAnalytics = ""
 
     [params.summary]
         enable = true
-        text = "I am a full stack software engineer.  I have seen nearly all aspects of the software development lifecycle.  I've fulfilled front and back end development roles, architected microservices solutions, created DevOps pipelines, and written technical documentation to teach others how to do the same.  At this early stage in my career, I have served as a technical lead for multiple projects and have fulfilled other minor leadership roles as well.  While leadership is important for my current position, being a team player is, and has always been, critical regardless of position.  I have had no issue falling in line, working with teammates, and adding meaningful contributions to every team I have been a part of.  I have an insatiable passion for technology and I'm not afraid to step outside of my comfort zone."
+        text = "I am a full stack software engineer.  I have seen nearly all aspects of the software development lifecycle.  I've fulfilled front and back end development roles, architected microservices solutions, built critical developer tools and environments, created DevOps pipelines, and written technical documentation to teach others how to do the same.  At this early stage in my career, I have served as a technical lead for multiple projects and have fulfilled other minor leadership roles as well.  Aside from leadership roles, being a team player is always important and I have had no issue falling in line, working with teammates, and adding meaningful contributions to every team I have been a part of.  I have an insatiable passion for technology and I'm not afraid to step outside of my comfort zone."
 
 
 
@@ -207,7 +209,7 @@ googleAnalytics = ""
         title = "Technical Lead Software Engineer"
         dates = "2019 - Present"
         company = "Leidos"
-        details = "Serving as the Technical Lead Engineer of a team building a Platform as a Service.  This position has been heavily focused on DevOps and building/deploying microservices."
+        details = "Serving as the Technical Lead Engineer of a team building a Platform as a Service.  This position has been heavily focused on developer tooling, DevOps, and building/deploying microservices."
         [[params.experience.list.items]]
         details = "Responsible for leading the development of the PaaS reference implementation."
         [[params.experience.list.items]]
@@ -217,7 +219,11 @@ googleAnalytics = ""
         [[params.experience.list.items]]
         details = "Have worked with multiple cloud platforms including AWS, GovCloud, Azure, and GCP."
         [[params.experience.list.items]]
-        details = "Have built and automated repeatable native/Docker(containers)/Vagrant(virtual machines)/AWS workspaces development environments."
+        details = "Built a custom CLI (in my free time) that is now used by many developers leveraging our PaaS to streamline their local development experience."
+        [[params.experience.list.items]]
+        details = "Have built and automated repeatable development environments (Docker, Vagrant, AWS Workspaces) that were provisioned using the aforementioned CLI."
+        [[params.experience.list.items]]
+        details = "Leveraged the aforementioned development environments to make hosting our live PaaS training sessions more manageable."
         [[params.experience.list.items]]
         details = "Have worked several proof of concepts that required fast turnaround and concise demonstrations."
 
