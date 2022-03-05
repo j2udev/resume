@@ -67,9 +67,15 @@ googleAnalytics = ""
         [[params.skills.list.items]]
         details = "JavaScript"
         [[params.skills.list.items]]
+        details = "TypeScript"
+        [[params.skills.list.items]]
         details = "Golang"
         [[params.skills.list.items]]
+        details = "Python"
+        [[params.skills.list.items]]
         details = "Bash"
+        [[params.skills.list.items]]
+        details = "Ansible"
         [[params.skills.list.items]]
         details = "Vagrant"
         [[params.skills.list.items]]
@@ -96,8 +102,6 @@ googleAnalytics = ""
         details = "Prometheus/Grafana"
         [[params.skills.list.items]]
         details = "Istio"
-        [[params.skills.list.items]]
-        details = "Yeoman"
         [[params.skills.list.items]]
         details = "Hugo"
 
@@ -206,7 +210,7 @@ googleAnalytics = ""
         enable = true
 
         [[params.experience.list]]
-        title = "Technical Lead Software Engineer"
+        title = "Software Engineer III (Technical Lead)"
         dates = "2019 - Present"
         company = "Leidos"
         details = "Serving as the Technical Lead Engineer of a team building a Platform as a Service.  This position has been heavily focused on developer tooling, DevOps, and building/deploying microservices."
@@ -215,20 +219,22 @@ googleAnalytics = ""
         [[params.experience.list.items]]
         details = "Have pioneered some of the work related to container orchestration within the Leidos Morgantown office, including work with Kubernetes, Helm, Docker, and Skaffold."
         [[params.experience.list.items]]
-        details = "Have worked with notable tools and technologies such as Apache Kafka, Apache NiFi, MongoDB, PostgreSQL, Prometheus, Grafana, Istio, and Terraform among others."
+        details = "Have pioneered some of the work related to cloud infrastructure provisioning and continuous delivery within the Leidos Morgantown office, including work with Terraform/Terragrunt, Ansible, and Rancher/Fleet."
         [[params.experience.list.items]]
-        details = "Have worked with multiple cloud platforms including AWS, GovCloud, Azure, and GCP."
+        details = "Have worked with other notable tools and technologies such as Apache Kafka, Apache NiFi, MongoDB, PostgreSQL, Prometheus, Grafana, and Istio among others."
+        [[params.experience.list.items]]
+        details = "Have worked with multiple cloud platforms including AWS/GovCloud, and GCP."
         [[params.experience.list.items]]
         details = "Built a custom CLI (in my free time) that is now used by many developers leveraging our PaaS to streamline their local development experience."
         [[params.experience.list.items]]
         details = "Have built and automated repeatable development environments (Docker, Vagrant, AWS Workspaces) that were provisioned using the aforementioned CLI."
         [[params.experience.list.items]]
-        details = "Leveraged the aforementioned development environments to make hosting our live PaaS training sessions more manageable."
+        details = "Hosted live training sessions for our PaaS leveraging the aforementioned development environments to streamline the process and ease the learning curve for new developers."
         [[params.experience.list.items]]
-        details = "Have worked several proof of concepts that required fast turnaround and concise demonstrations."
+        details = "Additionally serving as a Solution Architect for domain teams looking to modernize. Requires a deep understanding of modern tech stacks in order to consult effectively."
 
         [[params.experience.list]]
-        title = "Software Engineer"
+        title = "Software Engineer I"
         dates = "2017 - 2019"
         company = "Leidos"
         details = "Served as a developer for multiple web application products.  This position was primarily focused on both front and back end development using JavaScript and Java."
