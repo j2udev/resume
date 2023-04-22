@@ -45,7 +45,7 @@ googleAnalytics = ""
         [[params.contact.list]]
         icon = "fas fa-envelope-square"
         url = "mailto:#"
-        text = "j2udevelopment@gmail.com"
+        text = "j2udev@gmail.com"
     #    [[params.contact.list]]
     #    icon = "fas fa-globe"
     #    url = "#"
@@ -341,7 +341,7 @@ googleAnalytics = ""
 
         [[params.social.list]]
         icon = "fab fa-github-square"
-        url = "//github.com/j2udevelopment"
+        url = "//github.com/j2udev"
         title = "Find me on Github!"
         [[params.social.list]]
         icon = "fab fa-linkedin"
