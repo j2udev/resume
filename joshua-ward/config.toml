@@ -25,7 +25,7 @@ googleAnalytics = ""
     [params.profile]
         enable = true
         name = "Joshua Ward"
-        tagline = "Technical Lead Software Engineer"
+        tagline = "DevOps Engineer"
         avatar = "professional-avatar.jpeg"
 
 
@@ -77,9 +77,11 @@ googleAnalytics = ""
         [[params.skills.list.items]]
         details = "Ansible"
         [[params.skills.list.items]]
-        details = "Vagrant"
+        details = "Packer"
         [[params.skills.list.items]]
         details = "Docker"
+        [[params.skills.list.items]]
+        details = "Podman"
         [[params.skills.list.items]]
         details = "Kubernetes"
         [[params.skills.list.items]]
@@ -89,21 +91,37 @@ googleAnalytics = ""
         [[params.skills.list.items]]
         details = "Terraform"
         [[params.skills.list.items]]
+        details = "OpenTofu"
+        [[params.skills.list.items]]
+        details = "Terragrunt"
+        [[params.skills.list.items]]
         details = "AWS"
         [[params.skills.list.items]]
         details = "Rancher"
         [[params.skills.list.items]]
         details = "Apache Kafka"
         [[params.skills.list.items]]
-        details = "Apache NiFi"
-        [[params.skills.list.items]]
         details = "Jenkins"
         [[params.skills.list.items]]
-        details = "Prometheus/Grafana"
+        details = "GitLab CI"
+        [[params.skills.list.items]]
+        details = "Grafana"
+        [[params.skills.list.items]]
+        details = "Prometheus"
+        [[params.skills.list.items]]
+        details = "Loki"
+        [[params.skills.list.items]]
+        details = "Tempo"
+        [[params.skills.list.items]]
+        details = "Jaeger"
         [[params.skills.list.items]]
         details = "Istio"
         [[params.skills.list.items]]
+        details = "Nginx"
+        [[params.skills.list.items]]
         details = "Hugo"
+        [[params.skills.list.items]]
+        details = "Astro Starlight"
 
         [[params.skills.list]]
         title = "Professional"
@@ -177,7 +195,7 @@ googleAnalytics = ""
 
 
     [params.interests]
-        enable = true
+        enable = false
 
         [[params.interests.list]]
         name = "Technology"
@@ -197,7 +215,9 @@ googleAnalytics = ""
 
     [params.summary]
         enable = true
-        text = "I am a full stack software engineer.  I have seen nearly all aspects of the software development lifecycle.  I've fulfilled front and back end development roles, architected microservices solutions, built critical developer tools and environments, created DevOps pipelines, and written technical documentation to teach others how to do the same.  At this early stage in my career, I have served as a technical lead for multiple projects and have fulfilled other minor leadership roles as well.  Aside from leadership roles, being a team player is always important and I have had no issue falling in line, working with teammates, and adding meaningful contributions to every team I have been a part of.  I have an insatiable passion for technology and I'm not afraid to step outside of my comfort zone."
+        texti = "I am a full stack software engineer.  I have seen nearly all aspects of the software development lifecycle.  I've fulfilled front and back end development roles, architected microservices solutions, built critical developer tools and environments, created DevOps pipelines, and written technical documentation to teach others how to do the same.  At this early stage in my career, I have served as a technical lead for multiple projects and have fulfilled other minor leadership roles as well.  Aside from leadership roles, being a team player is always important and I have had no issue falling in line, working with teammates, and adding meaningful contributions to every team I have been a part of.  I have an insatiable passion for technology and I'm not afraid to step outside of my comfort zone."
+        texta = "Hi, I'm Josh! I've been around the block, but the past few years I've found myself in DevOps roles more often than not. I won't claim I've seen it all, but I've had the chance to work with most of the tools and technologies that make up modern DevOps practices. I'm passionate about containers (especially devcontainers... I've even [contributed devcontainer documentation to Terragrunt](https://github.com/gruntwork-io/terragrunt/pull/3977)) and Kubernetes.  I maintain [my own library of devcontainer features](https://github.com/j2udev/devcontainer-features/tree/main/src) on GitHub and I contributed the [Helm values view](https://github.com/derailed/k9s/pull/1518) "
+        text = "Hi, I'm Josh! I've been around the block, but the past few years I've found myself in DevOps roles more often than not. I won't claim I've seen it all, but I've had the chance to work with most of the tools and technologies that make up modern DevOps practices (both on-prem and in the cloud). I'm passionate about containers (especially devcontainers), Kubernetes, Infrastructure as Code, Vim, Terminal User Interfaces (TUIs), and open-source in general. I've [contributed devcontainer documentation to Terragrunt](https://github.com/gruntwork-io/terragrunt/pull/3977)) and I maintain [my own library of devcontainer features](https://github.com/j2udev/devcontainer-features/tree/main/src) on GitHub. I also contributed the [Helm values view](https://github.com/derailed/k9s/pull/1518) to K9s which is objectively the best Kubernetes dashboard, prove me wrong!"
 
 
 
@@ -210,8 +230,22 @@ googleAnalytics = ""
         enable = true
 
         [[params.experience.list]]
+        title = "Software Engineer IV (Solution Architect)"
+        dates = "2022 - Present"
+        company = "Leidos"
+        details = "Heavily focused on DevOps and consulting teams on all things Kubernetes, Terraform/Terragrunt, Docker and development environments, automation processes, performance optimizations, metrics/log aggregation/tracing, etc. Extensively worked with AWS. Migrated legacy on-prem projects to the cloud."
+        [[params.experience.list.items]]
+        details = "Built entire libraries of Terraform modules and Terragrunt units and stacks."
+        [[params.experience.list.items]]
+        details = "Built mature ansible collections used for pre-provisioning (e.g. building Packer AMIs), and post-provisioning (e.g. bootstrapping Kubernetes clusters)."
+        [[params.experience.list.items]]
+        details = "Built libraries of devcontainers used by development teams to take the headache out of local dev environment set up and reused in CI/CD pipelines."
+        [[params.experience.list.items]]
+        details = "Heavily involved in building complex performance testing scenarios (in Kubernetes/AWS) scaling to millions of users over small periods of time."
+
+        [[params.experience.list]]
         title = "Software Engineer III (Technical Lead)"
-        dates = "2019 - Present"
+        dates = "2019 - 2022"
         company = "Leidos"
         details = "Serving as the Technical Lead Engineer of a team building a Platform as a Service.  This position has been heavily focused on developer tooling, DevOps, and building/deploying microservices."
         [[params.experience.list.items]]
